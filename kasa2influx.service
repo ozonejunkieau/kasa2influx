@@ -1,0 +1,14 @@
+[Unit]
+Description=Kasa to InfluxDB Bridge Service
+After=network.target
+
+[Service]
+User=(user if required)
+Type=simple
+Restart=always
+RestartSec=5
+ExecStart=/path/to/venv/python /path/to/kasa2influx.py
+
+[Install]
+WantedBy=multi-user.target
+

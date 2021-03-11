@@ -1,0 +1,4 @@
+loguru
+influxdb
+python-kasa
+python-logging-loki
