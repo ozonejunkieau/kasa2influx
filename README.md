@@ -8,10 +8,11 @@ This script is used for collecting state and energy information from the TP-Link
 * KP303 (_State Only_)
 
 ## Installation
+NOTE: Python 3.7 or greater is required.
 
 ```
 git clone
-python3 -m venv _venv
+python3.9 -m venv _venv
 source _venv/bin/activate
 pip install -r requirements.txt
 cp config.example.py config.py
